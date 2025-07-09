@@ -172,69 +172,19 @@
 
 //                                             Reversing the Number using Recursion
 
-// #include<iostream>
-// int reverse(int n,int rev=0){
-// if(n==0)
-// return rev;
-// else
-// return reverse(n/10 , rev*10+(n%10));
+#include<iostream>
+int reverse(int n,int rev=0){
+if(n==0)
+return rev;
+else
+return reverse(n/10 , rev*10+(n%10));
 
-// }
-// int main() {
-//     int num;
-//     std::cout << "Enter a number: ";
-//     std::cin >> num;
-
-//     std::cout << "Reversed number: " << reverse(num) << "\n";
-//     return 0;
-// }
-
-//Sum of n Natural Numbers..
-
-// #include<iostream>
-// int natural(int n){
-//   if (n==0){
-//     return 0;
-//   }
-//   else{
-//   return n+ natural(n-1);
-// }
-// }
-// int main(){
-//   int num;
-//   std::cout<<"Enter the Number: "<<"\n";
-//   std::cin>>num;
-
-//   std::cout<<"Sum of n Natural numbers: "<<natural(num)<<std::endl;
-// }
-
-#include<iostream>                           //Linear search in array
-int main(){
-    int n;
-    std::cout<<"Enter the size of the array: "<<"\n";
-    std::cin>>n;
-    int arr[n];
-    for(int i = 0;i<n;i++){                         //Input an array 
-        std::cin>>arr[i];
-    }
-    int target;
-    bool found = false;
-
-    std::cout<<"Enter the number to search: "<<"\n";
-    std::cin>>target;
-
-    for(int i = 0;i < n;i++){
-        if(arr[i]==target){
-            std::cout<<"Found " <<target<<" at index " << i << "\n"; 
-        found = true;
-        break;
-      } 
-    }
-if(!found){
-    std::cout<<"Target not Found!"<<"\n";
 }
-return 0;
+int main() {
+    int num;
+    std::cout << "Enter a number: ";
+    std::cin >> num;
 
-
-
+    std::cout << "Reversed number: " << reverse(num) << "\n";
+    return 0;
 }
