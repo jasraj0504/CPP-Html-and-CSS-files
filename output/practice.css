@@ -1,14 +1,14 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My CSS Practice</title>
 
-   🧠 INTERNAL CSS goes here 
+  <!-- 🧠 INTERNAL CSS goes here -->
   <style>
     body {
-      background-color: #222;
+      background-color: #1e1e1e;
       color: white;
       font-family: 'Arial', sans-serif;
       text-align: center;
@@ -16,7 +16,7 @@
     }
 
     h1 {
-      color: rgb(5, 231, 251);
+      color: hotpink;
       font-size: 36px;
       margin-bottom: 20px;
     }
@@ -32,27 +32,24 @@
 
     .card img {
       width: 100%;
-      border: 20px;
       border-radius: 10px;
       margin-bottom: 15px;
     }
 
     .card p {
-      font-size: 25px;
-      font-style: italic;
-      color: aquamarine;
+      font-size: 18px;
     }
   </style>
 </head>
 <body>
 
-  <h1 >Meet Luffy! ✨</h1>
+  <h1>Meet Jass ✨</h1>
 
   <div class="card">
-    <img src="C:\Users\Asus\Downloads\one-piece-monkey-d-luffy-pfp-33.webp" alt="Monkey.D.Luffy" />
-    <p>2nd Year CSE Student, Frontend Training 💻⚔️</p>
-    <p> games 🎮, and ChatGPT 🤖</p>
+    <img src="https://placedog.net/400/300?id=12" alt="My Avatar" />
+    <p>2nd Year CSE Student, Frontend Warrior in Training 💻⚔️</p>
+    <p>Loves animals 🐶, games 🎮, and ChatGPT 🤖</p>
   </div>
 
 </body>
-</html> -->
+</html>

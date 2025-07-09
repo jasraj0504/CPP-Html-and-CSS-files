@@ -1,17 +1,15 @@
-// #include<iostream>                                              //Pattern to print any matrix using "*"
+// #include<iostream>                                              //Pattern to print square using "*"
 // int main(){
-//   int n,j;
+//   int n;
 //   std::cout<<"Enter the number of rows ";
 //   std::cin>>n;
-//   std::cout<<"Enter the number of columns ";
-//   std::cin>>j;
 // for(int i=1;i<=n;i++){
-//    for(int j=1;j<=n+1;j++){
+//    for(int j=1;j<=n;j++){
 //       std::cout<<"*";
 //    }std::cout<<"\n";
 // }
 //   return 0;
-//  }
+// }
 // #include<iostream>                                    //Right Angled Trianle using "*"
 // int main(){ 
 //   int n;
@@ -48,24 +46,3 @@
 //     }
 //     return 0;
 // }
-//Hollow Pattern Printing;
-
-// #include <stdio.h>
-
-// int main() {
-//     int n;
-//     printf("Enter the size of the square: ");
-//     scanf("%d", &n);
-
-//     for (int i = 1; i <= n; i++) {           
-//         for (int j = 1; j <= n; j++) {       
-//             if (i == 1 || i == n || j == 1 || j == n) {
-//                 printf(" *");
-//             } else {
-//                 printf("  ");
-//             }
-//         }
-//         printf("\n"); 
-//     }
-
-    //return 0;
