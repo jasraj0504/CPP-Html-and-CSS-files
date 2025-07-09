@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My CSS Practice</title>
+
+  <!-- 🧠 INTERNAL CSS goes here -->
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: white;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      color: hotpink;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background-color: #333;
+      padding: 20px;
+      border-radius: 15px;
+      width: 300px;
+      margin: auto;
+      box-shadow: 0 0 20px rgba(255, 0, 255, 0.3);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .card p {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Meet Jass ✨</h1>
+
+  <div class="card">
+    <img src="https://placedog.net/400/300?id=12" alt="My Avatar" />
+    <p>2nd Year CSE Student, Frontend Warrior in Training 💻⚔️</p>
+    <p>Loves animals 🐶, games 🎮, and ChatGPT 🤖</p>
+  </div>
+
+</body>
+</html>
